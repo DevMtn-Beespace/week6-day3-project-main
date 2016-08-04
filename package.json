@@ -1,0 +1,32 @@
+{
+  "name": "week6-day3-project-main",
+  "version": "1.0.0",
+  "description": "sql-massive-node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMtn-Beespace/week6-day3-project-main.git"
+  },
+  "keywords": [
+    "node",
+    "massive",
+    "sql"
+  ],
+  "author": "Michael Lecke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevMtn-Beespace/week6-day3-project-main/issues"
+  },
+  "homepage": "https://github.com/DevMtn-Beespace/week6-day3-project-main#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "massive": "^2.4.0"
+  }
+}
